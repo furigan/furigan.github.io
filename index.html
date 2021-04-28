@@ -4,9 +4,169 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test</title>
+    <title>Document</title>
+    <style>
+      /* PRO TIP reset  styli */
+      *,
+      *:before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      section {
+        width: 200px;
+      }
+      .box0 {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        border: 5px solid;
+      }
+      .box1 {
+        color: aqua;
+      }
+      .box2 {
+        color: blue;
+      }
+
+      main {
+        width: 100%;
+        height: 250px;
+        border: 5px solid black;
+      }
+      .content {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        background: royalblue;
+        padding: 24px;
+      }
+
+      .parent {
+        width: 250px;
+        height: 250px;
+        border: 3px solid royalblue;
+      }
+      .children {
+        width: 30%;
+        height: 30%;
+        border: 3px solid black;
+        margin-top: -40px;
+        margin-left: -40px;
+      }
+
+      .section {
+        width: 300px;
+        height: 300px;
+        border: 5px solid;
+      }
+      .childOne {
+        width: 40%;
+        height: 40%;
+        border: 3px solid pink;
+        margin-bottom: -40px;
+      }
+      .childTwo {
+        width: 40%;
+        height: 40%;
+        background: royalblue;
+        margin-left: 32px;
+      }
+
+      .par {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        border: 2px solid black;
+      }
+
+      body {
+        box-sizing: border-box;
+        margin: 200px;
+        padding: 0;
+      }
+      .wrapper {
+        width: 100%;
+      }
+      .elem1 {
+        width: 50%;
+        margin-bottom: 50px;
+        border: 3px solid darkmagenta;
+        color: darkmagenta;
+        height: 200px;
+      }
+      .elem2 {
+        width: 50%;
+        margin-top: 80px;
+        border: 3px solid deepskyblue;
+        color: deepskyblue;
+        height: 200px;
+      }
+
+      .p {
+        margin-top: 48px;
+        margin-bottom: 48px;
+        border: 2px solid black;
+      }
+
+      .parent_1 {
+        margin-top: 72px;
+        border: 3px solid deeppink;
+      }
+      .child_1 {
+        margin-top: 24px;
+        border: 3px solid deepskyblue;
+      }
+    </style>
   </head>
   <body>
-    <h1>Test</h1>
+    <section>
+      <div class="box0"></div>
+    </section>
+    <div class="box box1">One</div>
+    <div class="box box2">Two</div>
+    <br />
+
+    <main>
+      <section class="content">Content</section>
+    </main>
+    <br />
+
+    <div class="parent">
+      <p>parent</p>
+      <div class="children">children</div>
+    </div>
+    <br />
+
+    <section class="section">
+      <div class="childOne"></div>
+      <div class="childTwo"></div>
+    </section>
+    <br />
+
+    <div class="par">Paragraph One</div>
+    <hr />
+    <div class="par">Paragraph Two</div>
+    <br />
+
+    <div class="wrapper">
+      <div class="elem1">Element 1</div>
+      <div class="elem2">Element 2</div>
+    </div>
+    <br />
+
+    <div>
+      <p class="p">Paragraf One</p>
+    </div>
+    <p class="p">paragraf Two</p>
+    <br />
+
+    <div class="parent_1">
+      <p class="child_1">Paragram One</p>
+    </div>
   </body>
 </html>
