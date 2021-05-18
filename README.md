@@ -1,4 +1,3 @@
 # test-page
 
-Test
-test 2
+Testowa strona GitHub Pages.
